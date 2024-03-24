@@ -37,7 +37,3 @@ SpringBoot + SpringCloudAlibaba + RocketMQ + ShardingSphere + Redis + MySQL
 5. 对大文件进行分块处理，并对每个分块保存若干副本，保证文件**存储可靠性**
 6. 底层基于netty和字节缓冲流，结合线程池进行数据传输，保证**传输高效性**
 7. 先写数据库再删缓存，保障文件元数据缓存与数据库之间的**数据一致性**功能
-
-
-
-../source/cover-webp/......
